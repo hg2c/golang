@@ -1,0 +1,4 @@
+FROM golang:alpine (https://hub.docker.com/r/library/golang/tags/alpine/)
+
+- bash, curl, make
+- git, glide, govendor
