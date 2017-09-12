@@ -1,6 +1,6 @@
 FROM golang:alpine
 
-RUN apk add --no-cache bash curl git glide govendor make librdkafka-dev
+RUN apk add --no-cache bash curl git glide godep govendor make librdkafka-dev
 
 RUN mkdir -p /go/src/k8s.io/kubernetes &&  \
  cd /go/src/k8s.io/kubernetes && \
