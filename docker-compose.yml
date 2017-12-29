@@ -1,0 +1,9 @@
+version: '2'
+services:
+  golang:
+    image: hg2c/golang:alpine
+    volumes:
+      - './:/go/src/github.com/hg2c/example'
+    working_dir: '/go/src/github.com/hg2c/example'
+    entrypoint: /bin/bash
+    tty: true
